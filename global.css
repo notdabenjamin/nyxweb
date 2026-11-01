@@ -2,8 +2,18 @@ html, body {
   min-height: 100%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
 body {
   margin: 0;
+}
+
+.download:hover {
+    color: transparent;
+    text-shadow: 0 -3px 0 white;
+    cursor: url("cursor.png"), auto;
 }
 
 html {
@@ -11,11 +21,37 @@ html {
   background: linear-gradient(#4a00de, #160041); 
 }
 
-/* Change cursor for the entire website */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* cursor */
 body {
   cursor: url('cursor.png') 16 16, auto;
 }
 
-a:hover {
-  cursor: url('cursor.png') 16 16, auto; /* Centers click point on a 32x32 image */
+/* fonts */
+
+.pacifico {
+    font-family: 'Pacifico', cursive;
+    font-weight: 300;
+    display: inline-block;
+    white-space: nowrap;
+
+    clip-path: inset(0 100% 0 0);
+    animation: write 0.5s ease forwards;
+}
+
+@keyframes write {
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+/* size */
+h1 {
+    font-size: 70px;
 }

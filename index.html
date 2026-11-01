@@ -7,6 +7,11 @@
         <link rel="manifest" href="/site.webmanifest">
         <link rel="stylesheet" href="global.css">
         <title>nyx launcher</title>
+
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     </head>
 <style>
     .navigation {
@@ -30,12 +35,9 @@
     .download {
         justify-self: start;
         margin-left: 30px !important;
+        transition: transform 200ms ease;
     }
 
-    .download.hover {
-        margin-top: 10px;
-        cursor: url('cursor.png') 16 16, auto;
-    }
 
     .download a {
         text-decoration: none;
@@ -50,7 +52,7 @@
 
 <div class="navigation">
     <h2 class="about">about</h2>
-    <img src="logo.png" alt="Logo">
+    <a href="index.html"><img src="logo.png" alt="Logo"></a>
     <h2 class="download"><a href="download.html">download</a></h2>
 </div>
 </html>
