@@ -1,0 +1,21 @@
+html, body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  background-color: #4a00de; 
+  background: linear-gradient(#4a00de, #160041); 
+}
+
+/* Change cursor for the entire website */
+body {
+  cursor: url('cursor.png') 16 16, auto;
+}
+
+a:hover {
+  cursor: url('cursor.png') 16 16, auto; /* Centers click point on a 32x32 image */
+}
