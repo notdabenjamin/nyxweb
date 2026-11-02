@@ -19,7 +19,9 @@ a:active {
 
 .center h1,
 .center h2,
-.center h3 {
+.center h3,
+.center h4
+.center h5 {
     margin: 0;
     line-height: 2;
 }
