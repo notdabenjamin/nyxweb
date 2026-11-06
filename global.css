@@ -32,6 +32,12 @@ a:active {
     cursor: url("cursor.png"), auto;
 }
 
+.about:hover {
+    color: transparent;
+    text-shadow: 0 -3px 0 white;
+    cursor: url("cursor.png"), auto;
+}
+
 html {
   background-color: #4a00de; 
   background: linear-gradient(#4a00de, #160041); 
